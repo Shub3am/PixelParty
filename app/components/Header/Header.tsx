@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Image from "next/image";
+
 import MobileNav from "./mobileNav";
 export default function Nav () {
   return (
@@ -14,7 +15,7 @@ export default function Nav () {
             title="Pixel Party"
             className="inline-flex items-center"
           >
-<Image src="icon.svg" width={30} height={30}/>
+<Image src="/icon.svg" width={30} height={30}/>
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
               Pixel Party
             </span>

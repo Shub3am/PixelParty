@@ -23,7 +23,7 @@ export default function MeetLayout({
             setVideoDevices(vidDevices)
             setAudioDevices(audDevices)
         })()
-    })
+    }, [])
     
     if (videoDevices.length && audioDevices.length) {
     return (
