@@ -1,0 +1,14 @@
+{
+  "name": "pixelParty-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "type": "module"
+}
